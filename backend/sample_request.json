@@ -1,0 +1,10 @@
+{
+  "meeting_id": "standup-2026-08-11",
+  "utterances": [
+    {"speaker": "Alice", "text": "I think we should use PostgreSQL instead of MongoDB for this project."},
+    {"speaker": "Bob", "text": "Agreed, let's go with Postgres since we need relational data."},
+    {"speaker": "Alice", "text": "Great, it's decided then, we will use PostgreSQL."},
+    {"speaker": "Carol", "text": "I will set up the database schema by Friday."},
+    {"speaker": "Bob", "text": "Sounds good, let's also review the API design next week."}
+  ]
+}

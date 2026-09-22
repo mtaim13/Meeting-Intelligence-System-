@@ -1,0 +1,225 @@
+{
+  "meeting_id": "mobile-app-notification-design-2026-08-21",
+  "utterances": [
+    {
+      "speaker": "Michael",
+      "text": "Good morning everyone. Let's start the notification design meeting."
+    },
+    {
+      "speaker": "Rachel",
+      "text": "I've brought the results from the user interviews."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "And I have the latest prototype ready."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Before we begin, I just want to mention that the current notification system feels too noisy."
+    },
+    {
+      "speaker": "Michael",
+      "text": "That's one of the main things we need to address. What did users complain about?"
+    },
+    {
+      "speaker": "Rachel",
+      "text": "Most users said they receive too many notifications, especially for low-priority events."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "The current app sends notifications for almost every activity."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Some users told us they disabled notifications completely because of that."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Then reducing notification volume should be one of our main goals."
+    },
+    {
+      "speaker": "Rachel",
+      "text": "Users still want notifications for important events, such as security alerts and payment failures."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "We could divide notifications into three levels: critical, important, and informational."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "I like that, but I'm not sure users will understand the difference between important and informational."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Could we use different notification behaviors instead of asking users to understand the categories?"
+    },
+    {
+      "speaker": "Daniel",
+      "text": "For example, critical notifications could appear immediately, while informational ones could be grouped together."
+    },
+    {
+      "speaker": "Rachel",
+      "text": "That matches the feedback. Users mainly complained about being interrupted by minor events."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Let's make critical notifications immediate and group informational notifications."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "What about important notifications?"
+    },
+    {
+      "speaker": "Michael",
+      "text": "Let's keep them visible but avoid interrupting the user unless necessary."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "I can update the prototype with those three behaviors."
+    },
+    {
+      "speaker": "Rachel",
+      "text": "Another issue is notification timing. Some users receive notifications while they're sleeping."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "We could automatically enable a quiet period at night."
+    },
+    {
+      "speaker": "Michael",
+      "text": "I don't want to assume everyone sleeps at the same time."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "We could let users choose their own quiet hours."
+    },
+    {
+      "speaker": "Rachel",
+      "text": "Most participants said they would prefer that."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Okay, let's add configurable quiet hours."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Should critical security alerts ignore quiet hours?"
+    },
+    {
+      "speaker": "Michael",
+      "text": "Yes, security alerts should always be delivered."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "What about payment failures?"
+    },
+    {
+      "speaker": "Michael",
+      "text": "Those should probably be delivered during quiet hours as well, but let's confirm that with the product team."
+    },
+    {
+      "speaker": "Rachel",
+      "text": "There was also a lot of interest in controlling notification types individually."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "So users could disable marketing notifications while keeping account notifications?"
+    },
+    {
+      "speaker": "Rachel",
+      "text": "Exactly."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "We could have a settings page with separate switches for each notification type."
+    },
+    {
+      "speaker": "Michael",
+      "text": "That sounds useful, but I don't want the settings page to become complicated."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Maybe we can start with four categories: security, payments, account activity, and marketing."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Let's use those four categories for the first version."
+    },
+    {
+      "speaker": "Rachel",
+      "text": "Should marketing notifications be enabled by default?"
+    },
+    {
+      "speaker": "Michael",
+      "text": "I think they should be disabled by default, but we need to check the business requirements before making that final."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "I'll leave that setting configurable in the prototype for now."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Do we need sound and vibration controls too?"
+    },
+    {
+      "speaker": "Daniel",
+      "text": "The current prototype has separate controls for sound and vibration."
+    },
+    {
+      "speaker": "Rachel",
+      "text": "Users liked being able to turn vibration off while keeping sounds enabled."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Then let's keep those as separate settings."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Should we test the new design with the same users from the interviews?"
+    },
+    {
+      "speaker": "Rachel",
+      "text": "I'd rather test with a new group so we don't bias the results."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Agreed. Rachel, can you recruit eight new participants?"
+    },
+    {
+      "speaker": "Rachel",
+      "text": "Yes, I'll recruit eight participants and prepare the testing script."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Daniel, update the prototype with the notification behaviors, quiet hours, and category settings."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "I'll have it ready by Friday."
+    },
+    {
+      "speaker": "Michael",
+      "text": "And I'll confirm the payment failure behavior and the default marketing setting with the product team."
+    },
+    {
+      "speaker": "Sophie",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Let's summarize. Critical notifications will be delivered immediately, informational notifications will be grouped, and important notifications will avoid interrupting users when possible."
+    },
+    {
+      "speaker": "Michael",
+      "text": "Users will have configurable quiet hours, but security alerts will always bypass them."
+    },
+    {
+      "speaker": "Michael",
+      "text": "The first version will have separate settings for security, payments, account activity, and marketing, as well as independent sound and vibration controls."
+    },
+    {
+      "speaker": "Michael",
+      "text": "The prototype will be updated by Daniel, Rachel will recruit eight new participants, and I will confirm the two unresolved product decisions."
+    }
+  ]
+}

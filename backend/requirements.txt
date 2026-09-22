@@ -1,0 +1,13 @@
+# Web framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic-settings>=2.2.0
+
+# ML / NLP (must match the versions the models were trained/saved with)
+torch>=2.2.0
+transformers>=4.40.0
+sentencepiece>=0.2.0
+scikit-learn>=1.4.0
+scipy>=1.11.0
+numpy>=1.26.0
+pandas>=2.2.0
